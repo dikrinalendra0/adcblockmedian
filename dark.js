@@ -4,7 +4,9 @@
 Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}),'undefined'!=typeof infinite_scroll&&infinite_scroll.on('load',function(){Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}) }); /*]]>*/
 
     
-    (function(d, t, e, m){ // Async Rating-Widget initialization.
+   <script type='text/javascript'>(function(d, t, e, m){
+    
+    // Async Rating-Widget initialization.
     window.RW_Async_Init = function(){
                 
         RW.init({
@@ -32,4 +34,4 @@ Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}),'undefined'!=typeof 
     rw.id = id; rw.async = true; rw.type = &quot;text/javascript&quot;;
     rw.src = p + &quot;//&quot; + a + &quot;external&quot; + f + &quot;.js?ck=&quot; + ck;
     s.parentNode.insertBefore(rw, s);
-    }(document, new Date(), &quot;script&quot;, &quot;rating-widget.com/&quot;));
+    }(document, new Date(), &quot;script&quot;, &quot;rating-widget.com/&quot;));</script>
