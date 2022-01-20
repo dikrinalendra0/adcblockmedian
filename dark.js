@@ -4,7 +4,7 @@
 Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}),'undefined'!=typeof infinite_scroll&&infinite_scroll.on('load',function(){Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}) }); /*]]>*/
 
     
-    // Async Rating-Widget initialization.
+    (function(d, t, e, m){ // Async Rating-Widget initialization.
     window.RW_Async_Init = function(){
                 
         RW.init({
