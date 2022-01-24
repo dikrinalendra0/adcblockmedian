@@ -1,0 +1,28 @@
+/* modedark */
+.modedark{display:inline-block;float:right;margin-top:8px;position:absolute;right:45px;top:0;z-index:999;}
+.modedark svg{width:20px;height:20px;vertical-align:-5px;background-repeat:no-repeat!important;content:'';}
+.modedark svg path{fill:#fff;}
+.iconmode{cursor:pointer;display:block;padding:8px;background-position:center;transition:all .5s linear;}
+.iconmode:hover{border-radius:100px;}
+.check{display:none;}
+.modedark .iconmode .openmode{display:block;}
+.modedark .iconmode .closemode{display:none;}
+.modedark .check:checked ~ .iconmode .openmode{display:none;}
+.modedark .check:checked ~ .iconmode .closemode{display:block;}
+.Night #header-container{background:#16161a;}
+.Night{background:#1c1e21;}
+.Night #wrapper{background:#202024;color:#fff;}
+.Night #footer-widget-container{background:#1c1e21;}
+.Night h1.post-title{color:#FF8C00;}
+.Night h2.post-title a{color:#d8a689;}
+.Night h2.post-title a:hover{color:#DAA520;}
+.Night .FeaturedPost .featured-post-info{background:rgba(21, 23, 24, 0.9)}
+.Night .featured-post-summary{color:#fff;}
+.Night .FeaturedPost h3 a{color:#D2691E;}
+.Night .FeaturedPost h3 a:hover{color:#FFA500;}
+.Night #cssmenu ul a{background:#16161a;color:#fff;}
+.Night #cssmenu ul a:hover{background:#202024;}
+.Night #cssmenu ul ul a{background:#1c1e21;color:#fff;}
+.Night #cssmenu ul ul a:hover{background:#333333;}
+.Night #cssmenu ul li{border-top:0.1px solid rgba(30, 29, 29, 0.9);}
+.Night #cssmenu ul ul li a{border-bottom:0.1px solid rgba(21, 23, 24, 0.9);}
